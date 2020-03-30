@@ -1,0 +1,209 @@
+
+div.cabecera{
+    width: 100%;
+    height: 100%;
+    background-color: cornflowerblue;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0px;
+    
+    
+}
+
+div.topimages{
+    position: relative;
+    box-sizing: border-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 10%;   
+    top: 25%;
+}
+
+#buscador{
+    float: left;
+    position: relative;
+    width: 40%;
+    height: 40%;
+    top: 30%;
+    margin-left: 5%;
+    font-size: 200%;
+    background-color: royalblue;
+}
+
+#buscador:hover{
+    background-color: royalblue;
+}
+
+#messenger{
+    background-image: url("imagenes/mensajero.png");
+    margin-right: 5%;
+    float: right;
+}
+
+#messenger:hover{
+    background-color: royalblue;
+}
+
+#imagen{
+    background-image: url("imagenes/lupa.png");
+    margin-left: 5%;
+    float: left;
+}
+
+#imagen:hover{
+    background-color: royalblue;
+}
+
+#home{
+    float: left;
+    background-image: url("imagenes/casa.png");
+    margin-left: 5%;
+}
+
+#home:hover{
+    background-color: royalblue;
+}
+
+div.pie{
+    width: 100%;
+    height: 10%;
+    background-color: cornflowerblue;
+    box-sizing: border-box;
+    position: sticky;
+    opacity: 70%;
+    bottom: 0%;
+}
+
+div.botonPieContainer{
+    float: right;
+    position: relative;
+    box-sizing: border-box;
+    width: 14%;
+    margin-left: 6%;
+    margin-right: 5%;
+    height: 80%;
+    top:10%;
+}
+
+div.botonPie{
+    float: right;
+    position: relative;
+    box-sizing: border-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+   
+}
+
+div.botonPie:hover{
+    background-color: royalblue;
+}
+
+#menu{
+    background-image: url("imagenes/menu.png");
+}
+
+#notificacion{
+    background-image: url("imagenes/campana.png");
+}
+
+#grupo{
+    background-image: url("imagenes/grupo.png");
+}
+
+#amigos{
+    background-image: url("imagenes/amigos.png");
+}
+
+html,body{
+    
+    
+    height: initial 100%;
+}
+
+div.cuerpo{
+    width: 100%;
+    height: 100%;
+    background-color:gray;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0%;
+    overflow: scroll;
+}
+
+div.seccioncuerpo{
+    box-sizing: border-box;
+    background-color: white;
+    margin-bottom: 20px;
+    height: 60%;
+    width: 100%;
+
+}
+
+div.contain{
+    box-sizing: border-box;
+    overflow: hidden;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 10%;
+    height: 10%;
+}
+
+div.foto{
+    width: 100%;
+    height: 100%;
+    background-image: url("imagenes/facebook-teerasej-profile-ball-circle.png");
+    background-size: contain;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+p.nombre{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 200% ;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+}
+
+p.texto{
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    font-family: Arial;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+
+div.viaje{
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 30%;
+    left: 5%;
+    width: 89%;
+    height: 60%;
+     
+}
+
+#viaje1{
+    background-image: url("imagenes/1175060091_preview_https___cdn.cnn.com_cnnnext_dam_assets_190410085534-5g-cities-restricted.jpg");
+}
+
+#viaje2{
+    background-image: url("imagenes/https___blogs-images.forbes.com_annabel_files_2018_02_Louisville_Skyline-1200x801.jpg");
+}
+
+#viaje3{
+    background-image: url("imagenes/Hand-Luggage-Only-15.jpg");
+}
+
+#viaje4{
+    background-image: url("imagenes/68946_fullimage_kasteel-de-haar-1360.jpg");  
+}
