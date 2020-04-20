@@ -1,0 +1,14 @@
+.rojo {
+    color: red;
+  }
+  
+  .midiv {
+    border: solid 3px yellow;
+  }
+  
+  .milista {
+    list-style: none; 
+    margin: 0px; 
+    padding: 0px;
+  }
+  

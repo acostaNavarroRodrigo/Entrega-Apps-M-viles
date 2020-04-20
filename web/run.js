@@ -5,7 +5,7 @@ var serveStatic = require('serve-static');
 var app = express();
 
 var port = process.env.PORT || 3000;
-app.use(serveStatic(path.join(__dirname, 'public')));
+app.use(serveStatic(path.join(__dirname, 'cine')));
 app.listen(port,  function () {  
 	console.log('listening on port:', port);
 });
